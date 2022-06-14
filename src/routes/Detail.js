@@ -11,8 +11,6 @@ function Detail() {
       .then((json) => setMovie(json.data.movie));
   }, []);
 
-  console.log("bye");
-
   return (
     <div>
       <h2>{movie.title} - Detail</h2>
