@@ -11,7 +11,7 @@ function Detail() {
       .then((json) => setMovie(json.data.movie));
   }, []);
 
-  console.log("Hi");
+  console.log("bye");
 
   return (
     <div>
